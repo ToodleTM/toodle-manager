@@ -1,0 +1,33 @@
+{
+  "name": "toodle-manager",
+  "version": "0.0.1",
+  "description": "Toodle API admin console",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4",
+    "sinon": "^1.17.2"
+  },
+  "scripts": {
+    "test": "mocha -R ./test/unit/**/*Spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToodleTM/toodle-manager.git"
+  },
+  "keywords": [
+    "toodle",
+    "console",
+    "admin"
+  ],
+  "author": "Martin \"Hoshin\" Bahier",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ToodleTM/toodle-manager/issues"
+  },
+  "homepage": "https://github.com/ToodleTM/toodle-manager#readme"
+}
