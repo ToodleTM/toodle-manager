@@ -4,12 +4,23 @@
   "description": "Toodle API admin console",
   "main": "index.js",
   "dependencies": {
+    "babel-preset-react": "^6.3.13",
+    "babelify": "^7.2.0",
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "passport": "^0.3.2",
+    "passport-oauth2": "^1.2.0",
     "react": "^0.14.6",
-    "react-dom": "^0.14.6"
+    "react-dom": "^0.14.6",
+    "react-redux": "^4.0.6",
+    "redux": "^3.0.6",
+    "superagent": "^1.7.2"
   },
   "devDependencies": {
     "chai": "^3.4.1",
     "mocha": "^2.3.4",
+    "redux-devtools": "^3.0.1",
     "sinon": "^1.17.2"
   },
   "scripts": {

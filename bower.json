@@ -1,0 +1,33 @@
+{
+  "name": "toodle-manager",
+  "main": "index.js",
+  "version": "0.0.1",
+  "authors": [
+    "Hoshin <martin.bahier@gmail.com>"
+  ],
+  "description": "Toodle Management Console",
+  "moduleType": [
+    "es6"
+  ],
+  "keywords": [
+    "toodle",
+    "management",
+    "console"
+  ],
+  "license": "GPL-v3.0",
+  "homepage": "www.toodle.it",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "~0.14.6",
+    "babel-browser": "*",
+    "jquery": "~2.2.0",
+    "bootstrap": "^3.3.6",
+    "moment": "^2.11.2"
+  }
+}
